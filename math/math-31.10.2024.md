@@ -24,6 +24,31 @@
 
 # Grundbegriffe der Datenanalyse
 
+## Grundgesamtheit
+
+Die Menge der für eine Untersuchung relevanten Personen oder Objekte
+
+## Stichprobe
+
+Eine Teilmenge der Grundgesamtheit
+
+zufällige Auswahl -> **Zufallsstichprobe** / **randomisierte Stichprobe**
+
+## Stichprobenumfang
+
+Die Anzahl der in der Stichprobe untersuchten Personen oder Objekte
+
+Anzahl = Grundgesamtheit -> **Vollerhebung**
+
+## Bias
+
+systematische Abweichung, welche bei einer nicht zufällig gezogenen Stichprobe auftritt.
+
+## Repräsentativität
+
+Eine Stichprobe ist dann *repräsentativ*, wenn sie ein unverzerrtes Abbild der Grundgesamtheit ist. d.h. für alle
+Merkmale entspricht die Verteilung der Häufigkeiten in der Stichprobe jener in der Grundgesamtheit.
+
 # grafische Darstellung
 
 # Kennzahlen
