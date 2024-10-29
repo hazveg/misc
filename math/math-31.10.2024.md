@@ -173,9 +173,10 @@ Grundsätzlich wird im Boxplot folgendes Format befolgt:
 Zwischen `unteres Quartil` und `oberes Quartil` wird eine Box eingefärbt.
 Hierin sind 50% aller Datensätze enthalten.
 Oberhalb und unterhalb der Box werden Antennen eingezeichnet. Diese sind beim
-`Minimum`/`Maximum` wenn die Distanz zwischen dessen Wert unterhalb
-1.5 * `Interquartilsabstand` liegt. Wenn nicht, wird es da eingezeichnet und der
-Wert - sowie weitere Werte ausserhalb dieser Grenze - als Extremwerte aufgeführt.
+`Minimum`/`Maximum` wenn die Distanz zwischen dessen Wert und dem entsprechenden
+Quartil unterhalb 1.5 * `Interquartilsabstand` liegt. Wenn nicht, wird es da
+eingezeichnet und der Wert - sowie weitere Werte ausserhalb dieser Grenze -
+als Extremwerte aufgeführt.
 
 ## Streudiagramm
 
