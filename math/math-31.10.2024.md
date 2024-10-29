@@ -116,13 +116,85 @@ Bei gerader Anzahl nimmt man den Durchschnitt der mittleren zwei Rangwerte.
 
 ## Säulen- und Balkendiagramme
 
-Hierbei werden qualitative Merkmale dargestellt. Die Höhe der Säulen / die Breite der Balken werden durch die relative / absolute Häufigkeit hiervon bestimmt.
-Säulen / Balken werden mit Zwischenräumen voneinander getrennt.
+Hierbei werden qualitative Merkmale dargestellt. Die Höhe der Säulen /
+die Breite der Balken werden durch die relative / absolute Häufigkeit hiervon
+bestimmt. Säulen / Balken werden mit Zwischenräumen voneinander getrennt.
 
 ## Kreisdiagramm
 
-Im Kreisdiagramm werden die relativen Häufigkeiten einer einzelnen Ausprägung mit Kreissektoren dargestellt.
-Der Zentriwinkel hiervon ist proportional zum prozentualen Wert der Häufigkeit.
+Im Kreisdiagramm werden die relativen Häufigkeiten einer einzelnen Ausprägung mit
+Kreissektoren dargestellt. Der Zentriwinkel hiervon ist proportional zum prozentualen
+Wert der relativen Häufigkeit.
+
+## Streifenplot
+
+Beim Streifenplot werden quantitative Merkmale dargestellt. Dient einem ersten
+Überblick. Nicht unbedingt bei grossen Stichproben sinnvoll.
+
+![Verschiedene Streifenplot Typen, S. 382](streifenplot.png)
+
+## Histogramm
+
+> Prerequisite: Kennzahlen
+
+Im Histogramm werden die Ausprägungen in **Klassen** eingeteilt. Schlussendlich
+werden die Häufigkeiten innerhalb diesen Kategorien durch die Höhe der
+Klassenrechtecke dargestellt. Keine Zwischenräume.
+
+- Anzahl `k` von Klassen definieren, idealerweise im Bereich `5 - 20`;
+  oder `sqrt(n)`, wobei `n` die Anzahl Datensätze ist.
+- Klassengrenzen definieren, sie sollten alle dieselbe Breite haben.
+- Absolute Häufigkeiten definieren (= Anzahl Beobachtungen pro Klasse).
+- Die Höhe eines Rechtecks wird auf einem Histogram proportional zur absoluten
+  Häufigkeit der Klasse gezeichnet.
+- Die Grafik wird zum Schluss noch mit dem Inhalt und Kontext entsprechen
+  beschriftet und bezeichnet.
+
+![Beispiel Histogramm, S. 383](histogramm.png)
+
+### Kategorisierung der Verteilung
+
+![Histogramm - Kategorisierung, S. 384](histogramm-kategorisierung.png)
+
+## Boxplot
+
+> Prerequisite: Kennzahlen
+
+Grundsätzlich wird im Boxplot folgendes Format befolgt:
+
+- Minimum
+- unteres Quartil
+- Median
+- oberes Quartil
+- Maximum
+
+![Boxplot Definition](boxplot.png)
+
+Zwischen `unteres Quartil` und `oberes Quartil` wird eine Box eingefärbt.
+Hierin sind 50% aller Datensätze enthalten.
+Oberhalb und unterhalb der Box werden Antennen eingezeichnet. Diese sind beim
+`Minimum`/`Maximum` wenn die Distanz zwischen dessen Wert unterhalb
+1.5 * `Interquartilsabstand` liegt. Wenn nicht, wird es da eingezeichnet und der
+Wert - sowie weitere Werte ausserhalb dieser Grenze - als Extremwerte aufgeführt.
+
+## Streudiagramm
+
+Im Streudiagramm werden zwei quantitative Merkmale dargestellt. Eine Ausprägung
+entspricht der X-Koordinate, die andere der Y-Koordinate. An der definierten
+Koordinate setze man ein beliebiges Zeichen.
+
+Lineare Zusammenhänge, **Korrelationen** genannt, treten auf, wenn sich Punkte
+um eine Gerade streuen. Man unterscheidet zwischen einer *positiven -* und einer
+*negativen Korrelation*.
+
+![Korrelation Beispiel, S. 387](korrelation.png)
+
+Aus einer Korrelation darf kein **kausaler Zusammenhang** geschlossen werden.
+Wenn sich der Wert der einen Ausprägung verändert, muss sich nicht unbedingt
+der Andere verändern. Beide könnten von einem **Störfaktor** beeinflusst worden
+sein.
+
+![kein kausaler Zusammenhang!, S. 388](kausaler-zusammenhang.png)
 
 # Kennzahlen
 
@@ -169,28 +241,3 @@ Das *Maximum* `x_max` eines Merkmals einer Stichprobe ist die grösste auftreten
 ## Spannweite
 
 ![Spannweite Definition](spannweite.png)
-
-# Histogram
-
-- Anzahl `k` von Klassen definieren, idealerweise im Bereich `5 - 20`; oder `sqrt(n)`, wobei `n` die Anzahl Datensätze ist.
-- Klassengrenzen definieren, sie sollten alle dieselbe Breite haben.
-- Absolute Häufigkeiten definieren (= Anzahl Beobachtungen pro Klasse).
-- Die Höhe eines Rechtecks wird auf einem Histogram proportional zur absoluten Häufigkeit der Klasse gezeichnet.
-- Die Grafik wird zum Schluss noch mit dem Inhalt und Kontext entsprechen beschriftet und bezeichnet.
-
-# Boxplot
-
-Grundsätzlich wird im Boxplot folgendes Format befolgt:
-
-- Minimum
-- unteres Quartil
-- Median
-- oberes Quartil
-- Maximum
-
-![Boxplot Definition](boxplot.png)
-
-Zwischen `unteres Quartil` und `oberes Quartil` wird eine Box eingefärbt. Hierin sind 50% aller Datensätze enthalten.
-Oberhalb und unterhalb der Box werden Antennen eingezeichnet. Diese sind beim `Minimum`/`Maximum` wenn die Distanz zwischen
-dessen Wert unterhalb 1.5 * `Interquartilsabstand` liegt. Wenn nicht, wird es da eingezeichnet und der Wert - sowie weitere
-Werte ausserhalb dieser Grenze - als Extremwerte aufgeführt.
