@@ -38,38 +38,42 @@ zufällige Auswahl -> **Zufallsstichprobe** / **randomisierte Stichprobe**
 
 Die Anzahl der in der Stichprobe untersuchten Personen oder Objekte
 
-Stichprobenumfang = Grundgesamtheit -> **Vollerhebung**
+Stichprobenumfang = Grundgesamtheit => **Vollerhebung**
 
 ## Bias
 
-systematische Abweichung, welche bei einer nicht zufällig gezogenen Stichprobe auftritt.
+systematische Abweichung, welche bei einer nicht zufällig gezogenen Stichprobe
+auftritt.
 
 ## Repräsentativität
 
-Eine Stichprobe ist dann *repräsentativ*, wenn sie ein unverzerrtes Abbild der Grundgesamtheit ist. d.h. für alle
-Merkmale entspricht die Verteilung der Häufigkeiten in der Stichprobe jener in der Grundgesamtheit.
+Eine Stichprobe ist dann *repräsentativ*, wenn sie ein unverzerrtes Abbild
+der Grundgesamtheit ist. d.h. für alle Merkmale entspricht die Verteilung
+der Häufigkeiten in der Stichprobe jener in der Grundgesamtheit.
 
 ## Urliste
 
-In der Urliste sind die ursprünglich erhaltenen Daten enthalten. Diese sind hierbei noch nicht weiter bearbeitet worden.
+In der Urliste sind die ursprünglich erhaltenen Daten enthalten. Diese sind
+hierbei noch nicht weiter bearbeitet worden.
 
 ## Datensatz
 
-Die zusammengefassten Daten einer Studie, egal ob von der Urliste oder nicht.
+Die zusammengefassten Daten einer Studie, egal ob Urliste oder nicht.
 
 ## Untersuchungseinheiten
 
-Bei jeder Datengewinnung werden Daten pro einzelne Untersuchungseinheiten gesammelt. Jede Untersuchungseinheit erhält
-in einer Tabelle eine eindeutige ID, welche in der ersten Spalte gespeichert wird.
+Bei jeder Datengewinnung werden Daten pro einzelne Untersuchungseinheiten gesammelt.
+Jede Untersuchungseinheit erhält in einer Tabelle eine eindeutige ID, welche in der
+ersten Spalte gespeichert wird.
 
 ## Merkmale / Variablen
 
 An jeder Untersuchungseinheiten werden Daten für bestimmte Merkmale / Variablen erhoben.
 
 ```
-1 Variable      ->      univariat
-2 Variablen     ->      bivariat
->2 Variablen    ->      multivariat
+   1 Variable     ->      univariat
+   2 Variablen    ->      bivariat
+(>2) Variablen    ->      multivariat
 ```
 
 ## Wert / Ausprägung
@@ -82,13 +86,15 @@ Eine Beobachtung ist eine Untersuchungseinheit sowie den Ausprägungen in dessen
 
 ## Variablentypen
 
-![qualitativ/kategoriell { nominal, ordinal }, quantitiv/metrisch { diskret, stetig/kontinuierlich }](variablentypen_baum.png)
+![qualitativ/kategoriell { nominal, ordinal }, quantitiv/metrisch { diskret, stetig/kontinuierlich }](images/variablentypen_baum.png)
 
 ## geordnete Stichprobe und Rang
 
-- nominal       ->  gleiche Ausprägungen nacheinander
-- ordinal       ->  entsprechend der Ordnung der Merkmalsausprägungen
-- quantitativ   ->  in Reihenfolge der Grösse der Ausprägungen
+```
+nominal       ->    gleiche Ausprägungen nacheinander
+ordinal       ->    entsprechend der Ordnung der Merkmalsausprägungen
+quantitativ   ->    in Reihenfolge der Grösse der Ausprägungen
+```
 
 Bei sortierten Datensätzen macht es auch Sinn, den Untersuchungseinheiten einen Rang zu geben.
 Falls hierbei die gleichen Daten auf mehreren Rängen kommen, gibt es zwei Vorgehensweisen:
@@ -121,7 +127,7 @@ Bei gerader Anzahl nimmt man den Wert in der Mitte, auch wenn man die ganzen Zah
 
 ## absolute / relative Häufigkeit
 
-![Definition der absoluten/relativen Häufigkeit, S. 379](häufigkeit.png)
+![Definition der absoluten/relativen Häufigkeit, S. 379](images/häufigkeit.png)
 
 ## Säulen- und Balkendiagramme
 
@@ -140,7 +146,7 @@ Wert der relativen Häufigkeit.
 Beim Streifenplot werden quantitative Merkmale dargestellt. Dient einem ersten
 Überblick. Nicht unbedingt bei grossen Stichproben sinnvoll.
 
-![Verschiedene Streifenplot Typen, S. 382](streifenplot.png)
+![Verschiedene Streifenplot Typen, S. 382](images/streifenplot.png)
 
 ## Histogramm
 
@@ -154,16 +160,16 @@ Klassenrechtecke dargestellt. Keine Zwischenräume.
   oder `sqrt(n)`, wobei `n` die Anzahl Datensätze ist.
 - Klassengrenzen definieren, sie sollten alle dieselbe Breite haben.
 - Absolute Häufigkeiten definieren (= Anzahl Beobachtungen pro Klasse).
-- Die Höhe eines Rechtecks wird auf einem Histogram proportional zur absoluten
+- Die Höhe eines Rechtecks wird auf einem Histogramm proportional zur absoluten
   Häufigkeit der Klasse gezeichnet.
 - Die Grafik wird zum Schluss noch mit dem Inhalt und Kontext entsprechen
   beschriftet und bezeichnet.
 
-![Beispiel Histogramm, S. 383](histogramm.png)
+![Beispiel Histogramm, S. 383](images/histogramm.png)
 
 ### Kategorisierung der Verteilung
 
-![Histogramm - Kategorisierung, S. 384](histogramm-kategorisierung.png)
+![Histogramm - Kategorisierung, S. 384](images/histogramm-kategorisierung.png)
 
 ## Boxplot
 
@@ -177,7 +183,7 @@ Grundsätzlich wird im Boxplot folgendes Format befolgt:
 - oberes Quartil
 - Maximum
 
-![Boxplot Definition](boxplot.png)
+![Boxplot Definition](images/boxplot.png)
 
 Zwischen `unteres Quartil` und `oberes Quartil` wird eine Box eingefärbt.
 Hierin sind 50% aller Datensätze enthalten.
@@ -197,14 +203,14 @@ Lineare Zusammenhänge, **Korrelationen** genannt, treten auf, wenn sich Punkte
 um eine Gerade streuen. Man unterscheidet zwischen einer *positiven -* und einer
 *negativen Korrelation*.
 
-![Korrelation Beispiel, S. 387](korrelation.png)
+![Korrelation Beispiel, S. 387](images/korrelation.png)
 
 Aus einer Korrelation darf kein **kausaler Zusammenhang** geschlossen werden.
 Wenn sich der Wert der einen Ausprägung verändert, muss sich nicht unbedingt
 der Andere verändern. Beide könnten von einem **Störfaktor** beeinflusst worden
 sein.
 
-![kein kausaler Zusammenhang!, S. 388](kausaler-zusammenhang.png)
+![kein kausaler Zusammenhang!, S. 388](images/kausaler-zusammenhang.png)
 
 # Kennzahlen
 
@@ -212,13 +218,13 @@ Man nehme bei den Definitionen hier eine sortierte Liste von ganzen Zahlen an.
 
 ## Mittelwert
 
-![Mittelwert Definition](mittelwert.png)
+![Mittelwert Definition](images/mittelwert.png)
 
 ## Median
 
 > "... 50% der Ausprägungen kleiner oder gleich und 50% der Ausprägungen grösser oder gleich ... sind."
 
-![Median Definition](median.png)
+![Median Definition](images/median.png)
 
 ## Minimum
 
@@ -232,22 +238,22 @@ Das *Maximum* `x_max` eines Merkmals einer Stichprobe ist die grösste auftreten
 
 > "... 25% der Ausprägungen kleiner oder gleich und 75% der Ausprägungen grösser oder gleich ... sind."
 
-![unteres Quartil Definition](unteres_quartil.png)
+![unteres Quartil Definition](images/unteres_quartil.png)
 
 ## oberes Quartil
 
 > "... 75% der Ausprägungen kleiner oder gleich und 25% der Ausprägungen grösser oder gleich ... sind."
 
-![oberes Quartil Definition](oberes_quartil.png)
+![oberes Quartil Definition](images/oberes_quartil.png)
 
 ## Standardabweichung (*standard deviation*)
 
-![Standardabweichung Definition](standardabweichung.png)
+![Standardabweichung Definition](images/standardabweichung.png)
 
 ## Interquartilsabstand
 
-![Interquartilsabstand Definition](interquartilsabstand.png)
+![Interquartilsabstand Definition](images/interquartilsabstand.png)
 
 ## Spannweite
 
-![Spannweite Definition](spannweite.png)
+![Spannweite Definition](images/spannweite.png)
