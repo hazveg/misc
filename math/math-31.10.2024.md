@@ -97,16 +97,24 @@ Falls hierbei die gleichen Daten auf mehreren Rängen kommen, gibt es zwei Vorge
 2. Den Rang der mehrfachigen Ausprägung mitteln.
 
 Bsp: Die diskrete Ausprägung 5 erscheint auf den Rängen 3, 4, 5.
+
 Bei ungerader Anzahl nimmt man den mittleren Rang und setze diesen zum Wert 5.
 
 1. 3
 2. 4
 4. 5
-6. 7
-7. 9
+4. 5
+4. 5
+5. 7
+6. 9
 ...
 
-Bei gerader Anzahl nimmt man den Durchschnitt der mittleren zwei Rangwerte.
+Bei gerader Anzahl nimmt man den Wert in der Mitte, auch wenn man die ganzen Zahlen verlässt
+
+1.   2
+2.5. 5
+2.5. 5
+4.   7
 
 # grafische Darstellung
 
