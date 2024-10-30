@@ -226,6 +226,10 @@ Man nehme bei den Definitionen hier eine sortierte Liste von ganzen Zahlen an.
 
 ![Median Definition](images/median.png)
 
+## Modus
+
+Der *Modus* ist die am häufigsten auftretende Ausprägung in einer Stichprobe.
+
 ## Minimum
 
 Das *Minimum* `x_min` eines Merkmals einer Stichprobe ist die kleinste auftretende Ausprägung.
