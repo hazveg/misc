@@ -100,20 +100,20 @@ Bsp: Die diskrete Ausprägung 5 erscheint auf den Rängen 3, 4, 5 in Liste x.
 
 Bei ungerader Anzahl nimmt man den mittleren Rang und setze diesen zum Wert 5.
 
-`x[1]`: 3
-`x[2]`: 4
-`x[4]`: 5
-`x[4]`: 5
-`x[4]`: 5
-`x[5]`: 7
+`x[1]`: 3  
+`x[2]`: 4  
+`x[4]`: 5  
+`x[4]`: 5  
+`x[4]`: 5  
+`x[5]`: 7  
 `x[6]`: 9  
 ...
 
 Bei gerader Anzahl nimmt man den Wert in der Mitte, auch wenn man die ganzen Zahlen verlässt
 
-`x[1]`:   2
-`x[2.5]`: 5
-`x[2.5]`: 5
+`x[1]`:   2  
+`x[2.5]`: 5  
+`x[2.5]`: 5  
 `x[4]`:   7  
 ...
 
