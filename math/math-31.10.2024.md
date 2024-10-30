@@ -38,7 +38,7 @@ zufällige Auswahl -> **Zufallsstichprobe** / **randomisierte Stichprobe**
 
 Die Anzahl der in der Stichprobe untersuchten Personen oder Objekte
 
-Anzahl = Grundgesamtheit -> **Vollerhebung**
+Stichprobenumfang = Grundgesamtheit -> **Vollerhebung**
 
 ## Bias
 
