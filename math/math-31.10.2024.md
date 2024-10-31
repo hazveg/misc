@@ -132,7 +132,7 @@ Bei gerader Anzahl nimmt man den Wert in der Mitte, auch wenn man die ganzen Zah
 ## Säulen- und Balkendiagramme
 
 Hierbei werden qualitative Merkmale dargestellt. Die Höhe der Säulen /
-die Breite der Balken werden durch die relative / absolute Häufigkeit hiervon
+die Breite der Balken werden durch die relative / absolute Häufigkeit der entsprechenden Ausprägung
 bestimmt. Säulen / Balken werden mit Zwischenräumen voneinander getrennt.
 
 ## Kreisdiagramm
